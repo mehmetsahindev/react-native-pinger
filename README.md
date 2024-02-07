@@ -2,15 +2,15 @@
 
 ## Getting started
 
-`$ npm install react-native-ping --save`
+`$ npm install react-native-pinger --save`
 or
-`$ yarn add react-native-ping`
+`$ yarn add react-native-pinger`
 
 ## Linking (for React Native <= 0.59 only, React Native >= 0.60 skip this as auto-linking should work)
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-ping`
+`$ react-native link react-native-pinger`
 
 ### Manual installation
 
@@ -31,14 +31,14 @@ or
 2. Append the following lines to `android/settings.gradle`:
 
 ```
-  include ':react-native-ping'
-  project(':react-native-ping').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ping/android')
+  include ':react-native-pinger'
+  project(':react-native-pinger').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-pinger/android')
 ```
 
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
 
 ```
-  compile project(':react-native-ping')
+  compile project(':react-native-pinger')
 ```
 
 4. (optional)
@@ -68,7 +68,7 @@ ext {
 ### Get RTT (Round-trip delay time)
 
 ```javascript
-import Ping from 'react-native-ping';
+import Ping from 'react-native-pinger';
 
 ...
 
