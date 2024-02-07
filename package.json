@@ -1,0 +1,23 @@
+{
+  "name": "react-native-pinger",
+  "version": "1.0.0",
+  "description": "Ping controller for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "ping",
+    "react-native-ping"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehmetsahindev/react-native-pinger.git"
+  },
+  "author": "hello@mehmetsahin.dev",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2 || ^0.57.0 || ^0.68.0 || ^0.70.0 || ^0.73.0"
+  }
+}
